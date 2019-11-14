@@ -2,8 +2,6 @@
 This customized function save the MATLAB's generated audio spectrogram as image
 For a project I needed to save the spectrogram using short term fourier transform as an image for further classification of speakers. Bag of features used after extracting SURF features from those spectrogram images. I chose MATLAB for this work due to vats library availability. There is a function to plot spectrogram. I loaded audio signal and used that function directly to plot spectrogram.
 
-PastacodeProvider: Write code
-Syntax: HTML
 [input,fs]=audioread('testnext1.wav');
 spectrogram(input)
 
